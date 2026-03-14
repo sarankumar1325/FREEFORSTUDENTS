@@ -6,7 +6,7 @@
 
 A massive, community-curated directory of the best free software, tools, and services available to verified students worldwide. 
 
-![FreeForStudents Preview](public/preview.png)
+[![FreeForStudents Preview](public/preview.png)](https://github.com/user-attachments/assets/12c285d9-ee8e-4322-a0fe-a10be45b3fec)
 
 ## What is inside?
 
