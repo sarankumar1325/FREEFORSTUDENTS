@@ -1,6 +1,6 @@
-import React, { useRef, useState, useEffect } from 'react';
+import React, { useRef, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ArrowRight, Github, ExternalLink, Menu, X, ChevronDown, Search } from 'lucide-react';
+import { ArrowRight, Github, ChevronDown, Search } from 'lucide-react';
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
@@ -557,7 +557,7 @@ function Footer() {
         <div className="flex flex-col md:flex-row items-center gap-2 md:gap-4 text-center md:text-left">
           <span>© {new Date().getFullYear()} FreeForStudents.</span>
           <span className="hidden md:inline text-brand-surface">|</span>
-          <a shrink-0 href="https://github.com/sarankumar1325/FREEFORSTUDENTS" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1.5 hover:text-brand-accent transition-colors bg-brand-surface/30 px-3 py-1.5 rounded-full border border-brand-surface/50">
+          <a href="https://github.com/sarankumar1325/FREEFORSTUDENTS" target="_blank" rel="noopener noreferrer" className="shrink-0 flex items-center gap-1.5 hover:text-brand-accent transition-colors bg-brand-surface/30 px-3 py-1.5 rounded-full border border-brand-surface/50">
             <Github size={14} />
             Proudly Open Source
           </a>

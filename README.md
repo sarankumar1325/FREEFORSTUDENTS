@@ -1,75 +1,63 @@
-# React + TypeScript + Vite
+# FreeForStudents
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)
+[![Live Site](https://img.shields.io/badge/Live_Site-Vercel-000000?style=flat-square&logo=vercel)](https://freeforunifolks.vercel.app/)
 
-Currently, two official plugins are available:
+A massive, community-curated directory of the best free software, tools, and services available to verified students worldwide. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+![FreeForStudents Preview](public/preview.png)
 
-## React Compiler
+## What is inside?
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+As a student, you have access to thousands of dollars worth of premium software for free. This directory aggregates all of them into a single, easily searchable platform. We have collected over 70+ premium tools across various categories:
 
-Note: This will impact Vite dev & build performances.
+- **Developer Tools**: GitHub Pro, JetBrains Ultimate, Cursor Pro, Replit
+- **Cloud Infrastructure**: DigitalOcean Credits, AWS Educate, Azure for Students, Vercel Pro
+- **Design & Creative**: Figma Education, Canva Pro, Framer
+- **Productivity & Workspace**: Notion Plus, Raycast, Linear
+- **Databases & APIs**: MongoDB Student, Postman, Supabase
 
-## Expanding the ESLint configuration
+## Why use this directory?
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Instead of digging through multiple developer portals and searching for hidden student packs, you can browse, filter, and discover everything right here without having to sign up. 
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## Contribute
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+This project is proudly **Open Source** and built by the community, for the community. Are we missing an awesome free tool for students? 
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+We welcome pull requests and submissions! You can submit a tool directly through the live website or open a Pull Request right here in this repository. 
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+To help out:
+1. Fork the repository
+2. Add your new tool to `src/data.ts`
+3. Open a Pull Request
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## Local Setup
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+To run this directory locally on your machine:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/sarankumar1325/FREEFORSTUDENTS.git
+   ```
+
+2. Navigate to the project directory:
+   ```bash
+   cd freeforstudents
+   ```
+
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+## License
+
+This project is proudly Open Source.
+
