@@ -422,7 +422,19 @@ function DirectoryView() {
                           item.name.charAt(0)
                         )}
                       </div>
-                      <span className="truncate group-hover:pl-1 transition-all duration-300">{item.name}</span>
+                      {item.url ? (
+                        <a
+                          href={item.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          aria-label={`Visit ${item.name}`}
+                          className="truncate group-hover:pl-1 transition-all duration-300 underline-offset-4 hover:underline focus-visible:underline"
+                        >
+                          {item.name}
+                        </a>
+                      ) : (
+                        <span className="truncate group-hover:pl-1 transition-all duration-300">{item.name}</span>
+                      )}
                     </div>
                     <div className="col-span-4 text-sm text-brand-muted truncate">
                       {item.categoryTitle}

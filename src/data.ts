@@ -1,4 +1,9 @@
-export const DIRECTORY_CATEGORIES = [
+export const DIRECTORY_CATEGORIES: {
+  id: string;
+  title: string;
+  note: string;
+  items: { name: string; offer: string; url?: string }[];
+}[] = [
   {
     id: "king",
     title: "The King of Subscriptions",
@@ -19,7 +24,8 @@ export const DIRECTORY_CATEGORIES = [
       { name: "JetBrains Space Pro", offer: "via GitHub" },
       { name: "Replit Pro", offer: "via GitHub Pack" },
       { name: "GitKraken", offer: "via GitHub Pack" },
-      { name: "Postman Student Expert", offer: "free access" }
+      { name: "Postman Student Expert", offer: "free access" },
+      { name: "Glim", offer: "macOS file viewer; free for everyone (MIT)", url: "https://github.com/NeoPanic/Glim" }
     ]
   },
   {
